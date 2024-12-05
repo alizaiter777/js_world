@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<head>
-    <title>Stock Pricing</title>
-   
-</head>
-<body>
-    <script>
 
 const input = prompt("Enter stock prices for several days :");
 const prices = input.split(" ").map(Number);
@@ -33,6 +26,3 @@ function maxProfit(prices) {
 
 
 console.log("Max profit is:", maxProfit(prices));
-</script>
-</body>
-</html>
